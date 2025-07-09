@@ -1,0 +1,7 @@
+[build.environment]
+  NODE_VERSION = "18.x"  # Versão específica do Node
+
+[build]
+  command = "if [ -f package.json ]; then npm install && npm run build; fi"
+  publish = "src"
+  functions = "netlify/functions"

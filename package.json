@@ -1,0 +1,11 @@
+{
+  "name": "autoescola-avaliacao",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build realizado com sucesso'"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
